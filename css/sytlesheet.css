@@ -107,3 +107,35 @@ body {
     width: 85%;
     margin: 0 auto;
   }
+
+/* CSS for the column class */
+.column {
+    float: left;
+    width: 50%; /* Adjust the width as needed */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* CSS for the custom-format class */
+.custom-format {
+    border: 2px solid #ccc; /* Example border */
+    padding: 10px; /* Example padding */
+    margin: 10px; /* Example margin */
+    background-color: #f0f0f0; /* Example background color */
+}
+
+
+/* CSS for the .content class */
+.content {
+    border: 2px solid #333; /* Border style */
+    padding: 20px; /* Padding */
+    margin: 10px; /* Margin */
+    width: 80%; /* Width */
+    box-sizing: border-box; /* Include border and padding in the width calculation */
+}
+
